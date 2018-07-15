@@ -31,7 +31,7 @@ let MainController = (function(){
     });
     $(".otro").typed({
       strings: ["LOS DÍAS SIGNIFICATIVOS",
-       "NO SON EN FECHA ESPECIAL",
+       "NO SON EN UNA FECHA ESPECIAL",
         "PERO SIRVEN PARA REPRESENTAR ",
          "EL INICIO DE UNA HISTORIA INCREÍBLE.", 
          "LAS RISAS, BURLAS, JUEGOS",
