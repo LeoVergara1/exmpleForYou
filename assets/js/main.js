@@ -30,16 +30,28 @@ let MainController = (function(){
     contentType: 'html'
     });
     $(".otro").typed({
-      strings: ["UNA MUJER MÁS QUE HERMOSA.", "MUJER INTELIGENTE", "MUJER QUE CAUTIVA", "MUJER QUE ENCANTA", "CON SENTIMIENTOS INCOMPARABLES",
-      "CON UNA PERSONALIDAD MUY LINDA", "¿Y QUIÉN ES LA MUJER DE LA QUE HABLO?", "SÓLO PODRÍA SER UNA...", "ANA KAREN SUÁREZ CASTRO"],
+      strings: ["LOS DÍAS SIGNIFICATIVOS",
+       "NO SON EN FECHA ESPECIAL",
+        "PERO SIRVEN PARA REPRESENTAR ",
+         "EL INICIO DE UNA HISTORIA INCREÍBLE.", 
+         "LAS RISAS, BURLAS, JUEGOS",
+       "Y PELEAS HACEN QUE CADA VEZ",
+      "ESTO CREZCA Y SEA UNA AVENTURA QUE",
+       "QUE NO QUIERO QUE ACABE JAMÁS.", 
+       "LA DISTANCIA, EN ESTA OCASIÓN",
+        "NO ESTÁ DE NUESTRA PARTE,",
+      "PERO HA SERVIDO PARA DARME ",
+      "CUENTA DE LO GRANDE QUE ERES", 
+      "Y DESCUBRIR CUANTO TE QUIERO EN REALIDAD."
+      ],
       typeSpeed: 130,
       loop: false,
       contentType: 'html'
 
   });
   $(".final").typed({
-    strings: ["¡TE QUIERO BONITA!"],
-    startDelay: 50000,
+    strings: ["¡TE ESTARÉ ESPERANDO CON ANSIAS!"],
+    startDelay: 90000,
     showCursor: false,
     typeSpeed: 200,
     loop: false,
