@@ -30,19 +30,8 @@ let MainController = (function(){
     contentType: 'html'
     });
     $(".otro").typed({
-      strings: ["LOS DÍAS SIGNIFICATIVOS",
-       "NO SON EN UNA FECHA ESPECIAL",
-        "PERO SIRVEN PARA REPRESENTAR ",
-         "EL INICIO DE UNA HISTORIA INCREÍBLE.", 
-         "LAS RISAS, BURLAS, JUEGOS",
-       "Y PELEAS HACEN QUE CADA VEZ",
-      "ESTO CREZCA Y SEA UNA AVENTURA",
-       "QUE NO QUIERO QUE ACABE JAMÁS.", 
-       "LA DISTANCIA, EN ESTA OCASIÓN",
-        "NO ESTÁ DE NUESTRA PARTE,",
-      "PERO HA SERVIDO PARA DARME ",
-      "CUENTA DE LO GRANDE QUE ERES", 
-      "Y DESCUBRIR CUANTO TE QUIERO EN REALIDAD."
+      strings: ["ERES UNA MUJER MUY",
+       "HERMOSA Y AVENTURERA"
       ],
       typeSpeed: 130,
       loop: false,
@@ -50,8 +39,8 @@ let MainController = (function(){
 
   });
   $(".final").typed({
-    strings: ["¡TE ESTARÉ ESPERANDO CON ANSIAS!"],
-    startDelay: 90000,
+    strings: ["¡BONITA NOCHE!"],
+    startDelay: 8000,
     showCursor: false,
     typeSpeed: 200,
     loop: false,

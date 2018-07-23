@@ -6,13 +6,20 @@ var app = new Vue({
       src: "https://vuejs.org/images/logo.png"
       },
     created: function () {
-      console.log("Holaq view")
-      this.$http.get(`https://api.ipify.org/`, {}).then(response => {
-        console.log(response)
-       
-      }, response => {
-        console.log("Not response")
-      });
+     this.$http.get(`https://api.ipify.org/`, {}).then(response => {
+       var templateParams = {
+         name: 'Brandon',
+         notes: 'Check this out!',
+         ip: response.bodyText
+       };
+       emailjs.send('gmail', 'template_jnd1f1CT', templateParams).then(function(response) {
+      console.log('SUCCESS!', response.status, response.text);
+   }, function(error) {
+   });;
+      
+     }, response => {
+       console.log("Not response")
+     });
     },
     methods: {
       showingMessage: function () {
