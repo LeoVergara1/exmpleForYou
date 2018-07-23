@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="This page is for you">
-  <title>Erick Vergara</title>
+  <title>ForYou</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
   <link rel="stylesheet" href="assets/bootstrap-material-design-font/css/material.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise3-blocks-plugin/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 
 
 </head>
@@ -30,7 +31,7 @@
                         <div class="mbr-figure image-size" style="width: 20%; font-size: 50px;"><span class="mbri-hearth mbr-iconfont mbr-iconfont-features4" style="font-size: 200px; color: rgb(255, 255, 255);"></span></div>
                         <div class="span-title">
                             <div class="span-title">
-                                    <span class="mbr-section-title display-2 text-center pad-r">AMOR </span>
+                                    <span class="mbr-section-title display-2 text-center pad-r">DIANA</span>
                                     <span class="mbr-section-title display-2 text-center pad-r puntos"></span>
                                     <div class="row">
                                     <span class="mbr-section-title display-2 text-center otro"></span>       
@@ -52,6 +53,10 @@
         </div>
 
 </section>
+<div class="vue">
+    <span>{{showingMessage()}}</span>
+    <img v-bind:src="src">
+  </div>
 
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
@@ -64,6 +69,7 @@
 
   <script>
   </script>
-
+  <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.1"></script>
+  <script src="assets/js/vue/vue.js"></script>
 </body>
 </html>
